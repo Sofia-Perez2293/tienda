@@ -1,0 +1,28 @@
+*,html{
+    margin: 0%;
+    padding: 1%;
+    
+}
+body{
+    width: 1440px;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    transition: 0.5s ease;
+}
+.card:hover{
+    transform: scale(0.5);
+}
+img{
+    border-radius: 65px;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
