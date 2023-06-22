@@ -5,9 +5,11 @@
 }
 body{
     width: 1440px;
+    background-color: #d8efe7;
 }
 h1{
     text-align: center;
+    color:#123f69;
 }
 .container{
     display: flex;
@@ -25,4 +27,14 @@ img{
     width: 200px;
     padding-left: 10px;
     padding-right: 10px;
+}
+.card-image1{
+    margin-left: 200px;
+    padding: 0px;
+}
+.card-image3{
+    margin-right: 200px;
+}
+.card-image4{
+    margin-left:20px;
 }
